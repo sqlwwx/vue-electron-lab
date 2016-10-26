@@ -8,3 +8,15 @@ npm-debug.log.*
 thumbs.db
 !.gitkeep
 yarn.lock
+# Created by .ignore support plugin (hsz.mobi)
+### Vim template
+# swap
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
+# auto-generated tag files
+tags
