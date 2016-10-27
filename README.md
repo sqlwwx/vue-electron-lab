@@ -1,4 +1,4 @@
-# electron-vue-sample
+# electron-vue-lab
 
 > An electron-vue project
 
