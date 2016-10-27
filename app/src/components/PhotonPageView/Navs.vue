@@ -30,6 +30,10 @@
       <span class="icon icon-cloud"></span>
       <router-link to="/photon-page/qr-code">Qrcode</router-link>
     </span>
+    <span class="nav-group-item">
+      <span class="icon icon-cloud"></span>
+      <router-link to="/photon-page/404">404</router-link>
+    </span>
   </nav>
 
 
