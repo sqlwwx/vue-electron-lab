@@ -1,4 +1,3 @@
-
 <template>
 <div class="window">
   <div class="window-content">
