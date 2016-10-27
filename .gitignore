@@ -2,6 +2,7 @@
 app/dist/index.html
 app/dist/build.js
 app/dist/imgs/
+app/dist/*
 builds/*
 node_modules
 npm-debug.log
