@@ -12,6 +12,7 @@
     <current-page></current-page>
     <versions></versions>
     <links></links>
+    <routers></routers>
   </div>
 </template>
 
@@ -19,12 +20,14 @@
   import CurrentPage from './LandingPageView/CurrentPage'
   import Links from './LandingPageView/Links'
   import Versions from './LandingPageView/Versions'
+  import Routers from './LandingPageView/Routers'
 
   export default {
     components: {
       CurrentPage,
       Links,
-      Versions
+      Versions,
+      Routers
     },
     name: 'landing-page'
   }
