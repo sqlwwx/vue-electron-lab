@@ -7,7 +7,12 @@ export default [
   {
     path: '/photon-page',
     name: 'photon-page',
-    component: require('components/PhotonPageView')
+    component: require('components/PhotonPageView'),
+    children: [{
+      path: 'qr-code',
+      name: 'photon-page--qr-code',
+      component: require('components/QrCodeView')
+    }]
   },
   {
     path: '*',
