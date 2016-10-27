@@ -3,7 +3,7 @@
   <nav class="nav-group">
     <h5 class="nav-group-title">Favorites</h5>
     <router-link class="nav-group-item" active-class="active" to="/photon-page/qr-code">
-      <span class="icon icon-drive"></span>
+      <span class="icon icon-home"></span>
       Qrcode
     </router-link>
     <router-link class="nav-group-item" active-class="active" to="/photon-page/404">

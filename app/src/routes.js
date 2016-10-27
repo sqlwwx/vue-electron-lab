@@ -2,6 +2,7 @@ export default [
   {
     path: '/',
     name: 'landing-page',
+    redirect: '/photon-page',
     component: require('components/LandingPageView')
   },
   {
