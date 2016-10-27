@@ -28,7 +28,7 @@
     </span>
     <span class="nav-group-item">
       <span class="icon icon-cloud"></span>
-      <router-link :to="$store.state.route.path + '/qr-code'">Qrcode</router-link>
+      <router-link to="/photon-page/qr-code">Qrcode</router-link>
     </span>
   </nav>
 
