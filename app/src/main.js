@@ -1,3 +1,4 @@
+import 'photon/dist/css/photon.css'
 import Vue from 'vue'
 import Electron from 'vue-electron'
 import Resource from 'vue-resource'
