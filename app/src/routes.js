@@ -12,6 +12,10 @@ export default [
       path: 'qr-code',
       name: 'photon-page--qr-code',
       component: require('components/QrCodeView')
+    }, {
+      path: '*',
+      name: '404',
+      component: require('components/PhotonPageView/404')
     }]
   },
   {
