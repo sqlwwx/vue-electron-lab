@@ -6,6 +6,11 @@ export default [
     component: require('components/LandingPageView')
   },
   {
+    path: '/config',
+    name: 'config',
+    component: require('components/ConfigView')
+  },
+  {
     path: '/photon-page',
     name: 'photon-page',
     component: require('components/PhotonPageView'),

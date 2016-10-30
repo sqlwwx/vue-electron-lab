@@ -67,6 +67,15 @@
       Blue
     </span>
   </nav>
+  <hr/>
+  <nav class="nav-group">
+    <h5 class="nav-group-title">Tags</h5>
+    <span class="nav-group-item"
+      @click="$electron.remote.require('./electron.js').openConfigWindow('/#/config')">
+      <span class="icon icon-record" style="color:#57acf5"></span>
+      Config
+    </span>
+  </nav>
 </div>
 </template>
 <style scoped>

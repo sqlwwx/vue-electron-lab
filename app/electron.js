@@ -59,3 +59,10 @@ app.on('activate', () => {
     createWindow()
   }
 })
+
+exports.openConfigWindow = (hash) => {
+  let configWindow = new BrowserWindow({width: 400, height: 200, show: false, title: 'config'})
+  console.log(config.url + hash)
+  configWindow.loadURL(`${config.url + hash}`)
+  setTimeout(() => configWindow.show(), 200)
+}
