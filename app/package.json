@@ -5,6 +5,7 @@
   "main": "electron.js",
   "dependencies": {
     "photon": "https://github.com/sqlwwx/photon/tarball/master",
+    "qr-image": "^3.1.0",
     "vue": "^2.0.3",
     "vue-electron": "^1.0.4",
     "vue-resource": "^1.0.3",
