@@ -2,8 +2,7 @@
 
 const electron = require('electron')
 const path = require('path')
-const app = electron.app
-const BrowserWindow = electron.BrowserWindow
+let {app, BrowserWindow} = electron
 
 let mainWindow
 let config = {}
@@ -16,16 +15,19 @@ if (process.env.NODE_ENV === 'development') {
   config.url = `file://${__dirname}/dist/index.html`
 }
 
-function createWindow () {
+const createWindow = () => {
   /**
    * Initial window options
    */
   mainWindow = new BrowserWindow({
     height: 600,
-    width: 800
+    width: 800,
+    title: config.name,
+    show: false
   })
 
   mainWindow.loadURL(config.url)
+  mainWindow.show()
 
   if (process.env.NODE_ENV === 'development') {
     BrowserWindow.addDevToolsExtension(path.join(__dirname, '../node_modules/devtron'))
