@@ -3,6 +3,12 @@ textarea {
   width: 100%;
   height: 100%;
 }
+.uml-img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  min-width: 50%;
+  max-width: 100%
+}
 </style>
 
 <template>
