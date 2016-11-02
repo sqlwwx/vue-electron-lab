@@ -6,6 +6,10 @@
       <span class="icon icon-home"></span>
       Qrcode
     </router-link>
+    <router-link class="nav-group-item" active-class="active" to="/photon-page/plantuml">
+      <span class="icon icon-home"></span>
+      Plantuml
+    </router-link>
     <router-link class="nav-group-item" active-class="active" to="/photon-page/404">
       <span class="icon icon-drive"></span>
       404

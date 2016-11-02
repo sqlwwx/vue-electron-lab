@@ -18,6 +18,9 @@ export default [
       path: 'qr-code',
       component: require('components/QrCodeView')
     }, {
+      path: 'plantuml',
+      component: require('components/PlantumlView')
+    }, {
       path: 'bars',
       component: require('components/PhotonViews/Bars')
     }, {

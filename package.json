@@ -55,5 +55,7 @@
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.16.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "plantuml-encoder": "^1.2.4"
+  }
 }
