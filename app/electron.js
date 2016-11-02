@@ -26,6 +26,7 @@ const createWindow = () => {
     show: false
   })
 
+  require('./windows/menu.js')
   mainWindow.loadURL(config.url)
   mainWindow.show()
 
