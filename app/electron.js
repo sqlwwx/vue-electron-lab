@@ -20,6 +20,7 @@ const createWindow = () => {
    * Initial window options
    */
   mainWindow = new BrowserWindow({
+    frame: false,
     height: 600,
     width: 800,
     title: config.name,

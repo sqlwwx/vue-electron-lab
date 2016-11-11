@@ -1,5 +1,6 @@
 <template>
 <div class="window">
+  <x-header></x-header>
   <div class="window-content">
     <div class="pane-group">
       <navs></navs>
@@ -15,10 +16,11 @@
 
 <script>
 import Navs from './PhotonPageView/Navs'
+import XHeader from './PhotonPageView/Header'
 export default {
   name: 'photon-page',
   components: {
-    Navs
+    Navs, XHeader
   },
   data () {
     return {
