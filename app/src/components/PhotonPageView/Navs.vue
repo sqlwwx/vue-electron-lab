@@ -1,18 +1,10 @@
 <template>
 <div class="pane pane-sm sidebar">
-  <nav class="nav-group">
-    <h5 class="nav-group-title">Favorites</h5>
-    <router-link class="nav-group-item" active-class="active" to="/photon-page/qr-code">
-      <span class="icon icon-home"></span>
-      Qrcode
-    </router-link>
-    <router-link class="nav-group-item" active-class="active" to="/photon-page/plantuml">
-      <span class="icon icon-home"></span>
-      Plantuml
-    </router-link>
-    <router-link class="nav-group-item" active-class="active" to="/photon-page/404">
-      <span class="icon icon-drive"></span>
-      404
+  <nav v-for="menu0 in menus" class="nav-group">
+    <h5 class=nav-group-title>{{menu0.title}}</h5>
+    <router-link v-for="menu1 in menu0.menus" class="nav-group-item" active-class="active" :to="menu1.link">
+      <span class="icon" :class="menu1.icon"></span>
+      {{menu1.name}}
     </router-link>
   </nav>
 
@@ -88,3 +80,28 @@ a {
   color:#000;
 }
 </style>
+<script>
+export default {
+  name: 'navs',
+  data () {
+    return {
+      menus: [{
+        title: 'Favorites',
+        menus: [{
+          name: 'Qrcode',
+          icon: 'icon-home',
+          link: '/photon-page/qr-code'
+        }, {
+          name: 'Plantuml',
+          icon: 'icon-home',
+          link: '/photon-page/plantuml'
+        }, {
+          name: '404',
+          icon: 'icon-drive',
+          link: '/photon-page/404'
+        }]
+      }]
+    }
+  }
+}
+</script>
