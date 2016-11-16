@@ -21,6 +21,9 @@ export default [
       path: 'plantuml',
       component: require('components/PlantumlView')
     }, {
+      path: 'video-player',
+      component: require('components/VideoPlayerView')
+    }, {
       path: 'bars',
       component: require('components/PhotonViews/Bars')
     }, {

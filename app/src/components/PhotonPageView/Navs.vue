@@ -96,6 +96,10 @@ export default {
           icon: 'icon-home',
           link: '/photon-page/plantuml'
         }, {
+          name: 'VideoPlayer',
+          icon: 'icon-video',
+          link: '/photon-page/video-player'
+        }, {
           name: '404',
           icon: 'icon-drive',
           link: '/photon-page/404'
