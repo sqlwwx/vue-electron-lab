@@ -8,6 +8,8 @@
 .child-view {
   position: absolute;
   transition: all .5s cubic-bezier(.55,0,.1,1);
+  width: 100%;
+  height: 100%;
 }
 .slide-left-enter, .slide-right-leave-active {
   opacity: 0;
