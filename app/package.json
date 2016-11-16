@@ -10,6 +10,7 @@
     "vue-electron": "^1.0.4",
     "vue-resource": "^1.0.3",
     "vue-router": "^2.0.1",
+    "vue-video-player": "^2.3.4",
     "vuex": "^2.0.0",
     "vuex-router-sync": "^3.0.0"
   },
